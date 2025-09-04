@@ -8,7 +8,7 @@ builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange
 
 // Add Ocelot services
 builder.Services.AddOcelot();
-
+//priti added--need to remove:TODO
 var app = builder.Build();
 
 // Use Ocelot middleware
